@@ -5,22 +5,17 @@ const Benefits = () => {
     {
       icon: CheckCircle,
       title: "Corrección instantánea",
-      description: "Recibe feedback inmediato sobre pronunciación, gramática y vocabulario"
+      description: "Feedback inmediato sobre pronunciación y gramática"
     },
     {
       icon: MessageSquare,
       title: "Conversaciones ilimitadas",
-      description: "Practica tanto como quieras, 24/7, sin restricciones de tiempo"
-    },
-    {
-      icon: TrendingUp,
-      title: "Progreso semanal",
-      description: "Monitorea tu avance con reportes detallados de tu evolución"
+      description: "Practica tanto como quieras, 24/7"
     },
     {
       icon: Clock,
-      title: "IA 24/7",
-      description: "Tu asistente de inglés siempre disponible, adaptándose a tu horario"
+      title: "IA siempre disponible",
+      description: "Tu asistente personal adaptándose a tu horario"
     }
   ];
 
@@ -30,7 +25,7 @@ const Benefits = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-foreground">
           Beneficios
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
             return (

@@ -2,17 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
 interface PricingPlanProps {
-  onSubscribeClick: () => void;
+  onContactClick: () => void;
 }
 
-const PricingPlan = ({ onSubscribeClick }: PricingPlanProps) => {
+const PricingPlan = ({ onContactClick }: PricingPlanProps) => {
   const features = [
-    "Acceso completo a la IA de Hermess",
-    "Conversaciones ilimitadas",
+    "Conversaciones ilimitadas con IA",
     "Corrección en tiempo real",
-    "Reportes de progreso semanales",
-    "Soporte técnico 24/7",
-    "Actualizaciones automáticas"
+    "Disponible 24/7",
+    "Sin restricciones de tiempo"
   ];
 
   return (
@@ -42,11 +40,11 @@ const PricingPlan = ({ onSubscribeClick }: PricingPlanProps) => {
           </ul>
           
           <Button 
-            onClick={onSubscribeClick}
+            onClick={onContactClick}
             size="lg" 
             className="w-full bg-accent hover:bg-accent-hover text-accent-foreground py-6 text-lg rounded-full shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105"
           >
-            Suscribirme
+            Me interesa contactar
           </Button>
         </div>
       </div>
