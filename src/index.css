@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 195 100% 50%;
+    --accent: 150 60% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,13 +34,13 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 195 100% 50%;
+    --ring: 150 60% 65%;
 
-    /* Custom colors for Hermess */
-    --accent-soft: 195 60% 85%;
-    --accent-hover: 195 100% 45%;
-    --gradient-hero: linear-gradient(135deg, hsl(195, 100%, 50%), hsl(210, 100%, 60%));
-    --shadow-soft: 0 4px 20px -2px hsl(195, 100%, 50%, 0.15);
+    /* Custom colors for Hermess - Pastel Green */
+    --accent-soft: 150 40% 85%;
+    --accent-hover: 150 60% 55%;
+    --gradient-hero: linear-gradient(135deg, hsl(150, 60%, 65%), hsl(160, 50%, 70%));
+    --shadow-soft: 0 4px 20px -2px hsl(150, 60%, 65%, 0.15);
     --shadow-card: 0 2px 10px -2px hsl(0, 0%, 0%, 0.1);
 
     --radius: 0.5rem;
