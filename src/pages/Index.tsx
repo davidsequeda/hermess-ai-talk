@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
+import AIIntegration from "@/components/AIIntegration";
+import Benefits from "@/components/Benefits";
+import PricingPlan from "@/components/PricingPlan";
+import RegistrationForm from "@/components/RegistrationForm";
+import ActivationModal from "@/components/ActivationModal";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const scrollToRegistration = () => {
+    const element = document.getElementById('registro');
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleFormSubmit = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero onCTAClick={scrollToRegistration} />
+      <HowItWorks />
+      <AIIntegration />
+      <Benefits />
+      <PricingPlan onSubscribeClick={scrollToRegistration} />
+      <RegistrationForm onSubmit={handleFormSubmit} />
+      <Footer />
+      <ActivationModal isOpen={showModal} onClose={closeModal} />
     </div>
   );
 };
