@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { DollarSign, Clock, Zap } from "lucide-react";
 import alexaDevice from "@/assets/alexa-echo-device.png";
 
 interface HeroProps {
@@ -7,8 +9,33 @@ interface HeroProps {
 
 const Hero = ({ onContactClick }: HeroProps) => {
   return (
-    <section className="min-h-screen bg-background flex items-center justify-center px-6 py-20">
-      <div className="max-w-7xl mx-auto w-full">
+    <section className="min-h-screen bg-background flex flex-col">
+      {/* Top Navigation Bar */}
+      <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+          <div className="text-lg font-semibold text-foreground">
+            Hermess English AI
+          </div>
+          <div className="flex items-center space-x-4">
+            <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20">
+              <DollarSign className="w-3 h-3 mr-1" />
+              $20/mes
+            </Badge>
+            <Badge variant="outline" className="border-accent/30 text-foreground">
+              <Clock className="w-3 h-3 mr-1" />
+              24/7 Disponible
+            </Badge>
+            <Badge variant="outline" className="border-accent/30 text-foreground">
+              <Zap className="w-3 h-3 mr-1" />
+              IA Avanzada
+            </Badge>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Hero Content */}
+      <div className="flex-1 flex items-center justify-center px-6 py-20">
+        <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left side - Text content */}
           <div className="space-y-8">
@@ -29,7 +56,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
                 Comenzar
               </Button>
               <p className="text-sm text-foreground/70 font-medium">
-                Empieza a hablar inglés hoy — sin profesor fijo.
+                Empieza a hablar inglés hoy, sin academias, sin clases costosas, sin sentirte abrumado. Diviértete conversando sobre frases útiles.
               </p>
             </div>
           </div>
@@ -65,6 +92,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
