@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'Helvetica Neue', 'Roboto', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -43,7 +46,6 @@ export default {
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))',
-					soft: 'hsl(var(--accent-soft))',
 					hover: 'hsl(var(--accent-hover))'
 				},
 				popover: {
@@ -53,6 +55,10 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				bubble: {
+					user: 'hsl(var(--bubble-user))',
+					ai: 'hsl(var(--bubble-ai))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

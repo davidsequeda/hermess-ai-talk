@@ -8,14 +8,15 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 10%;
+    /* Warm background */
+    --background: 33 20% 97%; /* #FBF8F3 */
+    --foreground: 0 0% 5%; /* #0D0D0D */
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card-foreground: 0 0% 5%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --popover-foreground: 0 0% 5%;
 
     --primary: 210 40% 15%;
     --primary-foreground: 0 0% 98%;
@@ -26,7 +27,8 @@ All colors MUST be HSL.
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 150 60% 65%;
+    /* Orange CTA button */
+    --accent: 22 100% 63%; /* #FF8C42 */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,14 +36,15 @@ All colors MUST be HSL.
 
     --border: 0 0% 90%;
     --input: 0 0% 95%;
-    --ring: 150 60% 65%;
+    --ring: 22 100% 63%;
 
-    /* Custom colors for Hermess - Pastel Green */
-    --accent-soft: 150 40% 85%;
-    --accent-hover: 150 60% 55%;
-    --gradient-hero: linear-gradient(135deg, hsl(150, 60%, 65%), hsl(160, 50%, 70%));
-    --shadow-soft: 0 4px 20px -2px hsl(150, 60%, 65%, 0.15);
-    --shadow-card: 0 2px 10px -2px hsl(0, 0%, 0%, 0.1);
+    /* Custom colors */
+    --accent-hover: 22 100% 55%;
+    --bubble-user: 220 15% 91%; /* #E8EBF0 */
+    --bubble-ai: 0 0% 100%; /* White */
+    --accent-blue: 210 70% 60%; /* #4A90E2 */
+    --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+    --shadow-device: 0 15px 35px -5px rgba(0, 0, 0, 0.05);
 
     --radius: 0.5rem;
 
