@@ -60,7 +60,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
               <div className="flex justify-start">
                 <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 max-w-[280px]">
                   <p className="text-foreground text-sm font-medium">
-                    "Hola, ¿en qué te puedo ayudar hoy?"
+                    "Claro que sí, hoy podemos aprender un poco de las frases más usadas en una experiencia de viajes a un país angloparlante, ¿comenzamos?"
                   </p>
                 </div>
               </div>
