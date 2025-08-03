@@ -38,6 +38,12 @@ All colors MUST be HSL.
     --input: 0 0% 95%;
     --ring: 22 100% 63%;
 
+    /* Custom footer colors - pastels */
+    --footer-bg: 330 25% 95%; /* Soft pink background */
+    --footer-text: 0 0% 45%; /* Muted text */
+    --footer-accent: 280 30% 80%; /* Soft purple accent */
+    --footer-border: 320 20% 90%; /* Very light border */
+    
     /* Custom colors */
     --accent-hover: 22 100% 55%;
     --bubble-user: 220 15% 91%; /* #E8EBF0 */

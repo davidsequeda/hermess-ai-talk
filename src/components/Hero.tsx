@@ -14,10 +14,10 @@ const Hero = ({ onContactClick }: HeroProps) => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Your bilingual home environment
+                Tu hogar bilingüe
               </h1>
               <p className="text-xl md:text-2xl lg:text-[28px] text-foreground/80 leading-relaxed font-normal">
-                Learn to speak English in the comfort of your own house with our voice-integrated AI agent.
+                Aprende a hablar inglés desde casa con nuestro agente de voz IA integrado en Alexa.
               </p>
             </div>
             
@@ -26,10 +26,10 @@ const Hero = ({ onContactClick }: HeroProps) => {
                 onClick={onContactClick}
                 className="bg-accent hover:bg-accent-hover text-accent-foreground text-lg font-semibold px-8 py-4 h-auto rounded-xl shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105 uppercase tracking-wide"
               >
-                Get Started
+                Comenzar
               </Button>
               <p className="text-sm text-foreground/70 font-medium">
-                Start speaking English today — no tutor needed.
+                Empieza a hablar inglés hoy — sin profesor fijo.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
               <div className="flex justify-end">
                 <div className="bg-bubble-user rounded-2xl rounded-br-md px-6 py-4 max-w-[280px]">
                   <p className="text-foreground text-sm font-medium">
-                    "Alexa, teach me a conversation in English."
+                    "Alexa, enséñame una conversación en inglés."
                   </p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Hero = ({ onContactClick }: HeroProps) => {
               <div className="flex justify-start">
                 <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 max-w-[280px]">
                   <p className="text-foreground text-sm font-medium">
-                    "Hi! How can I help you today?"
+                    "Hola, ¿en qué te puedo ayudar hoy?"
                   </p>
                 </div>
               </div>

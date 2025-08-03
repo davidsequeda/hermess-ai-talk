@@ -1,80 +1,53 @@
-import { Facebook, Twitter, Instagram, Mail } from "lucide-react";
-
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8">
+    <footer className="bg-footer-bg border-t border-footer-border py-12">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
-          <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Hermess English AI</h3>
-            <p className="text-primary-foreground/80 mb-4 max-w-md">
-              La manera más inteligente de aprender inglés. Practica conversación real 
-              con inteligencia artificial avanzada, disponible 24/7.
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-foreground">
+              Hermess English AI
+            </h3>
+            <p className="text-sm text-footer-text leading-relaxed">
+              Tu hogar bilingüe con inteligencia artificial integrada en Alexa
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-accent transition-colors" aria-label="Facebook">
-                <Facebook className="w-5 h-5" />
+          </div>
+
+          {/* Links */}
+          <div className="space-y-4">
+            <h4 className="font-medium text-foreground">Enlaces</h4>
+            <div className="space-y-2">
+              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
+                Privacidad
               </a>
-              <a href="#" className="hover:text-accent transition-colors" aria-label="Twitter">
-                <Twitter className="w-5 h-5" />
+              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
+                Términos
               </a>
-              <a href="#" className="hover:text-accent transition-colors" aria-label="Instagram">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="mailto:info@hermess.ai" className="hover:text-accent transition-colors" aria-label="Email">
-                <Mail className="w-5 h-5" />
+              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
+                Soporte
               </a>
             </div>
           </div>
 
-          {/* Legal */}
-          <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
-            <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Términos y Condiciones
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Política de Privacidad
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Política de Reembolso
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h4 className="font-semibold mb-4">Soporte</h4>
-            <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Centro de Ayuda
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  Contacto
-                </a>
-              </li>
-              <li>
-                <a href="mailto:soporte@hermess.ai" className="hover:text-accent transition-colors">
-                  soporte@hermess.ai
-                </a>
-              </li>
-            </ul>
+          {/* Contact */}
+          <div className="space-y-4">
+            <h4 className="font-medium text-foreground">Contacto</h4>
+            <div className="space-y-2">
+              <p className="text-sm text-footer-text">
+                hola@hermess.ai
+              </p>
+              <p className="text-sm text-footer-text">
+                +1 (555) 123-4567
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; 2024 Hermess English AI. Todos los derechos reservados.</p>
+        {/* Bottom */}
+        <div className="pt-8 border-t border-footer-border text-center">
+          <p className="text-sm text-footer-text">
+            © 2024 Hermess English AI. Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </footer>

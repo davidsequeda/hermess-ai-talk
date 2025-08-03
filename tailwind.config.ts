@@ -60,6 +60,12 @@ export default {
 					user: 'hsl(var(--bubble-user))',
 					ai: 'hsl(var(--bubble-ai))',
 				},
+				footer: {
+					bg: 'hsl(var(--footer-bg))',
+					text: 'hsl(var(--footer-text))',
+					accent: 'hsl(var(--footer-accent))',
+					border: 'hsl(var(--footer-border))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
