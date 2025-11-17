@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import alexaDevice from "@/assets/alexa-echo-device.png";
+import alexaDevice from "@/assets/alexa-device-natural.jpg";
 
 const Hero = () => {
   const whatsappNumber = "1234567890"; // Reemplazar con número real
