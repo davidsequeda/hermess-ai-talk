@@ -26,7 +26,7 @@ const Pricing = () => {
         <div className="bg-card border border-border/50 rounded-3xl p-8 md:p-12 shadow-[var(--shadow-soft)]">
           <div className="text-center mb-8">
             <div className="text-5xl md:text-6xl font-bold text-foreground mb-2">
-              $20<span className="text-2xl text-muted-foreground">/mes</span>
+              $25<span className="text-2xl text-muted-foreground">/mes</span>
             </div>
           </div>
 

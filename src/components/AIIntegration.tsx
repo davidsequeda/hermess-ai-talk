@@ -1,4 +1,4 @@
-import alexaDevice from "@/assets/alexa-echo-device.png";
+import alexaDevice from "@/assets/alexa-device-natural.jpg";
 
 const AIIntegration = () => {
   return (
