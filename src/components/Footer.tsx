@@ -5,9 +5,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-semibold text-footer-text mb-2">Hermess English AI</h3>
+            <h3 className="text-lg font-semibold text-footer-text mb-2">Hermess</h3>
             <p className="text-sm text-footer-text/70">
-              Aprende inglés de forma natural
+              Aprende inglés con Rosa
             </p>
           </div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-sm text-footer-text/60 text-center md:text-right">
-            <p>&copy; 2024 Hermess English AI</p>
+            <p>&copy; 2024 Hermess</p>
           </div>
         </div>
       </div>
