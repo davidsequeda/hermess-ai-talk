@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="text-xl font-semibold text-foreground">
-            Hermess English AI
+            Hermess
           </div>
         </div>
       </div>
@@ -23,10 +23,10 @@ const Hero = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Tu hijo puede aprender inglés hablando con Alexa
+                  Tu hijo puede aprender inglés hablando con Rosa
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                  Un agente de IA que conversa, corrige y motiva… sin pantallas, sin distracciones.
+                  Rosa es un agente de IA que vive en Alexa. Conversa, corrige y motiva… sin pantallas, sin distracciones.
                 </p>
               </div>
               

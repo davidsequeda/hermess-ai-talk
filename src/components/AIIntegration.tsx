@@ -20,10 +20,10 @@ const AIIntegration = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-                IA integrada directamente en Alexa
+                Rosa vive en tu Alexa
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Nuestra IA conversa como un tutor real: responde, corrige pronunciación y adapta la dificultad según el nivel de tu hijo.
+                Rosa es un agente de IA integrado en Alexa que conversa como un tutor real: responde, corrige pronunciación y adapta la dificultad según el nivel de tu hijo.
               </p>
             </div>
 
@@ -31,13 +31,13 @@ const AIIntegration = () => {
             <div className="space-y-4">
               <div className="bg-bubble-user rounded-2xl rounded-br-md px-6 py-4 inline-block max-w-md">
                 <p className="text-foreground text-sm font-medium">
-                  "How do I order food at a restaurant?"
+                  "Rosa, ¿cómo pido comida en un restaurante?"
                 </p>
               </div>
 
               <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 inline-block max-w-md ml-8">
                 <p className="text-foreground text-sm font-medium">
-                  "Great question! You can say: 'Can I see the menu, please?' or 'I'd like to order...'. Let's practice together."
+                  "¡Buena pregunta! Puedes decir: 'Can I see the menu, please?' o 'I'd like to order...'. Practiquemos juntos."
                 </p>
               </div>
             </div>

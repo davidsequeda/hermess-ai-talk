@@ -4,17 +4,17 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: Download,
-      title: "Instala nuestra skill en Alexa",
+      title: "Instala la skill de Rosa en Alexa",
       description: "Descarga la skill en menos de un minuto"
     },
     {
       icon: Zap,
-      title: "Activa la IA en minutos",
-      description: "Configura y personaliza la experiencia"
+      title: "Activa a Rosa",
+      description: "Configura y personaliza la experiencia con Rosa"
     },
     {
       icon: MessageCircle,
-      title: "Tu hijo empieza a practicar",
+      title: "Tu hijo habla con Rosa",
       description: "Conversaciones en inglés todos los días"
     }
   ];

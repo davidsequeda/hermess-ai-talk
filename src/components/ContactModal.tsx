@@ -11,9 +11,9 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-semibold">Activación de la skill</DialogTitle>
+          <DialogTitle className="text-2xl font-semibold">Activación de Rosa</DialogTitle>
           <DialogDescription className="text-base">
-            Pasos para activar Hermess English AI en Alexa
+            Pasos para activar a Rosa en tu Alexa
           </DialogDescription>
         </DialogHeader>
 
@@ -34,8 +34,8 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                 2
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Busca "Hermess English"</h3>
-                <p className="text-sm text-muted-foreground">En la sección de skills</p>
+                <h3 className="font-semibold text-foreground mb-1">Busca "Rosa"</h3>
+                <p className="text-sm text-muted-foreground">En la sección de skills de Alexa</p>
               </div>
             </div>
 
@@ -44,8 +44,8 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                 3
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Activa la skill</h3>
-                <p className="text-sm text-muted-foreground">Y di: "Alexa, abre Hermess English"</p>
+                <h3 className="font-semibold text-foreground mb-1">Activa a Rosa</h3>
+                <p className="text-sm text-muted-foreground">Y di: "Alexa, quiero hablar con Rosa"</p>
               </div>
             </div>
           </div>
