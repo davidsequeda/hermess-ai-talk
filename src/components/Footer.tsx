@@ -1,53 +1,27 @@
 const Footer = () => {
   return (
-    <footer className="bg-footer-bg border-t border-footer-border py-12">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+    <footer className="bg-footer-bg border-t border-border/30 py-12 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Brand */}
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">
-              Hermess English AI
-            </h3>
-            <p className="text-sm text-footer-text leading-relaxed">
-              Tu hogar bilingüe con inteligencia artificial integrada en Alexa
+          <div className="text-center md:text-left">
+            <h3 className="text-lg font-semibold text-footer-text mb-2">Hermess English AI</h3>
+            <p className="text-sm text-footer-text/70">
+              Aprende inglés de forma natural
             </p>
           </div>
 
           {/* Links */}
-          <div className="space-y-4">
-            <h4 className="font-medium text-foreground">Enlaces</h4>
-            <div className="space-y-2">
-              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
-                Privacidad
-              </a>
-              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
-                Términos
-              </a>
-              <a href="#" className="block text-sm text-footer-text hover:text-footer-accent transition-colors">
-                Soporte
-              </a>
-            </div>
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-footer-text/70">
+            <a href="#" className="hover:text-footer-text transition-colors">Privacidad</a>
+            <a href="#" className="hover:text-footer-text transition-colors">Términos</a>
+            <a href="#" className="hover:text-footer-text transition-colors">Contacto</a>
           </div>
 
-          {/* Contact */}
-          <div className="space-y-4">
-            <h4 className="font-medium text-foreground">Contacto</h4>
-            <div className="space-y-2">
-              <p className="text-sm text-footer-text">
-                hola@hermess.ai
-              </p>
-              <p className="text-sm text-footer-text">
-                +1 (555) 123-4567
-              </p>
-            </div>
+          {/* Copyright */}
+          <div className="text-sm text-footer-text/60 text-center md:text-right">
+            <p>&copy; 2024 Hermess English AI</p>
           </div>
-        </div>
-
-        {/* Bottom */}
-        <div className="pt-8 border-t border-footer-border text-center">
-          <p className="text-sm text-footer-text">
-            © 2024 Hermess English AI. Todos los derechos reservados.
-          </p>
         </div>
       </div>
     </footer>

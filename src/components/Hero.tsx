@@ -1,98 +1,57 @@
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { DollarSign, Clock, Zap } from "lucide-react";
 import alexaDevice from "@/assets/alexa-echo-device.png";
 
-interface HeroProps {
-  onContactClick: () => void;
-}
+const Hero = () => {
+  const whatsappNumber = "1234567890"; // Reemplazar con número real
 
-const Hero = ({ onContactClick }: HeroProps) => {
   return (
     <section className="min-h-screen bg-background flex flex-col">
       {/* Top Navigation Bar */}
       <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="text-lg font-semibold text-foreground">
+          <div className="text-xl font-semibold text-foreground">
             Hermess English AI
-          </div>
-          <div className="flex items-center space-x-4">
-            <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20">
-              <DollarSign className="w-3 h-3 mr-1" />
-              $20/mes
-            </Badge>
-            <Badge variant="outline" className="border-accent/30 text-foreground">
-              <Clock className="w-3 h-3 mr-1" />
-              24/7 Disponible
-            </Badge>
-            <Badge variant="outline" className="border-accent/30 text-foreground">
-              <Zap className="w-3 h-3 mr-1" />
-              IA Avanzada
-            </Badge>
           </div>
         </div>
       </div>
 
       {/* Main Hero Content */}
-      <div className="flex-1 flex items-center justify-center px-6 py-20">
+      <div className="flex-1 flex items-center justify-center px-6 py-16 lg:py-24">
         <div className="max-w-7xl mx-auto w-full">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left side - Text content */}
-          <div className="space-y-8">
-            <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Tu hogar bilingüe
-              </h1>
-              <p className="text-xl md:text-2xl lg:text-[28px] text-foreground/80 leading-relaxed font-normal">
-                Aprende a hablar inglés desde casa con nuestro agente de voz IA integrado en Alexa.
-              </p>
-            </div>
-            
-            <div className="space-y-4">
-              <Button 
-                onClick={onContactClick}
-                className="bg-accent hover:bg-accent-hover text-accent-foreground text-lg font-semibold px-8 py-4 h-auto rounded-xl shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105 uppercase tracking-wide"
-              >
-                Comenzar
-              </Button>
-              <p className="text-sm text-foreground/70 font-medium">
-                Empieza a hablar inglés hoy, sin academias, sin clases costosas, sin sentirte abrumado. Diviértete conversando sobre frases útiles.
-              </p>
-            </div>
-          </div>
-
-          {/* Right side - Device and conversation */}
-          <div className="flex flex-col items-center space-y-8">
-            {/* Alexa Device */}
-            <div className="relative">
-              <img 
-                src={alexaDevice} 
-                alt="Alexa Echo Device" 
-                className="w-48 h-48 lg:w-64 lg:h-64 object-contain drop-shadow-[var(--shadow-device)]"
-              />
-            </div>
-
-            {/* Conversation Bubbles */}
-            <div className="space-y-4 w-full max-w-md">
-              {/* User bubble */}
-              <div className="flex justify-end">
-                <div className="bg-bubble-user rounded-2xl rounded-br-md px-6 py-4 max-w-[280px]">
-                  <p className="text-foreground text-sm font-medium">
-                    "Alexa, enséñame una conversación en inglés."
-                  </p>
-                </div>
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Left side - Text content */}
+            <div className="space-y-8">
+              <div className="space-y-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+                  Tu hijo puede aprender inglés hablando con Alexa
+                </h1>
+                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+                  Un agente de IA que conversa, corrige y motiva… sin pantallas, sin distracciones.
+                </p>
               </div>
-
-              {/* AI bubble */}
-              <div className="flex justify-start">
-                <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 max-w-[280px]">
-                  <p className="text-foreground text-sm font-medium">
-                    "Claro que sí, hoy podemos aprender un poco de las frases más usadas en una experiencia de viajes a un país angloparlante, ¿comenzamos?"
-                  </p>
-                </div>
+              
+              <div className="space-y-4">
+                <Button 
+                  asChild
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-semibold px-8 py-6 h-auto rounded-xl shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105"
+                >
+                  <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
+                    Hablar por WhatsApp
+                  </a>
+                </Button>
               </div>
             </div>
-          </div>
+
+            {/* Right side - Device */}
+            <div className="flex flex-col items-center justify-center">
+              <div className="relative">
+                <img 
+                  src={alexaDevice} 
+                  alt="Dispositivo Amazon Alexa" 
+                  className="w-64 h-64 lg:w-80 lg:h-80 object-contain drop-shadow-[var(--shadow-device)]"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
