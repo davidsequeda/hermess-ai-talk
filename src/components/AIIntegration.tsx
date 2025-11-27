@@ -1,4 +1,4 @@
-import alexaDevice from "@/assets/alexa-device-natural.jpg";
+import alexaDevice from "@/assets/alexa.png";
 
 const AIIntegration = () => {
   return (
@@ -11,7 +11,7 @@ const AIIntegration = () => {
               <img 
                 src={alexaDevice} 
                 alt="Alexa con IA integrada" 
-                className="w-72 h-72 lg:w-96 lg:h-96 object-contain drop-shadow-[var(--shadow-device)]"
+                className="w-80 h-80 lg:w-[500px] lg:h-[500px] object-contain drop-shadow-[var(--shadow-device)]"
               />
             </div>
           </div>
