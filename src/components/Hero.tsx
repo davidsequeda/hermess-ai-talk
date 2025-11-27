@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import alexaDevice from "@/assets/alexa-device-natural.jpg";
+import alexaDevice from "@/assets/alexa.png";
 
 const Hero = () => {
   const whatsappNumber = "1234567890"; // Reemplazar con número real
@@ -48,7 +48,7 @@ const Hero = () => {
                 <img 
                   src={alexaDevice} 
                   alt="Dispositivo Amazon Alexa" 
-                  className="w-64 h-64 lg:w-80 lg:h-80 object-contain drop-shadow-[var(--shadow-device)]"
+                  className="w-80 h-80 lg:w-[500px] lg:h-[500px] object-contain drop-shadow-[var(--shadow-device)]"
                 />
               </div>
             </div>
