@@ -27,7 +27,7 @@ const Pricing = () => {
             Elige tu plan
           </h2>
           <p className="text-lg text-muted-foreground">
-            Todo lo que necesitas para que tu hijo mejore su inglés
+            Todo lo que necesitas para mejorar tu inglés
           </p>
         </div>
 

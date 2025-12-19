@@ -23,7 +23,7 @@ const AIIntegration = () => {
                 Rosa vive en tu Alexa
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Rosa es un agente de IA integrado en Alexa que conversa como un tutor real: responde, corrige pronunciación y adapta la dificultad según el nivel de tu hijo.
+                Rosa es un agente de IA integrado en Alexa que conversa como un tutor real: responde, corrige pronunciación y adapta la dificultad según tu nivel.
               </p>
             </div>
 
