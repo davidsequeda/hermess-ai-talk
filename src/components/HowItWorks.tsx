@@ -14,7 +14,7 @@ const HowItWorks = () => {
     },
     {
       icon: MessageCircle,
-      title: "Tu hijo habla con Rosa",
+      title: "Habla con Rosa",
       description: "Conversaciones en inglés todos los días"
     }
   ];
