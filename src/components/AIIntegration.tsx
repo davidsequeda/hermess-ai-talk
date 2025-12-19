@@ -31,13 +31,13 @@ const AIIntegration = () => {
             <div className="space-y-4">
               <div className="bg-bubble-user rounded-2xl rounded-br-md px-6 py-4 inline-block max-w-md">
                 <p className="text-foreground text-sm font-medium">
-                  "Rosa, ¿cómo pido comida en un restaurante?"
+                  "Rosa, estoy preparando la cena. Dame frases que pueda usar en la cocina."
                 </p>
               </div>
 
               <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 inline-block max-w-md ml-8">
                 <p className="text-foreground text-sm font-medium">
-                  "¡Buena pregunta! Puedes decir: 'Can I see the menu, please?' o 'I'd like to order...'. Practiquemos juntos."
+                  "¡Claro! Puedes decir: 'I'm chopping the vegetables' o 'The water is boiling'. ¿Quieres que practiquemos más frases?"
                 </p>
               </div>
             </div>
