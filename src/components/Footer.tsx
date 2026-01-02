@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold text-footer-text mb-2">Hermess</h3>
             <p className="text-sm text-footer-text/70">
-              Aprende inglés con Rosa
+              Crearemos el futuro de la educación y comenzaremos con inglés
             </p>
           </div>
 
