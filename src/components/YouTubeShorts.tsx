@@ -3,6 +3,10 @@ const YouTubeShorts = () => {
     {
       id: "7krVMuIYHzc",
       title: "Aprende inglés con Rosa"
+    },
+    {
+      id: "ZXHBTuM7mfc",
+      title: "Aprende inglés con Rosa"
     }
   ];
 
