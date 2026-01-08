@@ -4,6 +4,7 @@ import HowItWorks from "@/components/HowItWorks";
 import AIIntegration from "@/components/AIIntegration";
 import Benefits from "@/components/Benefits";
 import Pricing from "@/components/Pricing";
+import YouTubeShorts from "@/components/YouTubeShorts";
 import ContactForm from "@/components/ContactForm";
 import ContactModal from "@/components/ContactModal";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ const Index = () => {
       <AIIntegration />
       <Benefits />
       <Pricing />
+      <YouTubeShorts />
       <ContactForm />
       <Footer />
       <ContactModal isOpen={showContactModal} onClose={() => setShowContactModal(false)} />
