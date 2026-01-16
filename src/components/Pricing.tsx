@@ -37,7 +37,7 @@ const Pricing = () => {
             <div className="text-center mb-8">
               <h3 className="text-xl font-semibold text-muted-foreground mb-4">Básico</h3>
               <div className="text-5xl font-bold text-foreground mb-2">
-                $20<span className="text-xl text-muted-foreground">/mes</span>
+                $27<span className="text-xl text-muted-foreground">/mes</span>
               </div>
             </div>
 
