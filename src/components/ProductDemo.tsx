@@ -1,19 +1,8 @@
-import { Play } from "lucide-react";
-
 const ProductDemo = () => {
   const videos = [
-    {
-      id: "7590753683428773140",
-      username: "hermess.ai"
-    },
-    {
-      id: "7590166477064490261",
-      username: "hermess.ai"
-    },
-    {
-      id: "7592444270888455432",
-      username: "hermess.ai"
-    }
+    { id: "TVNdJvrckUE" },
+    { id: "wr3ceeXf0hM" },
+    { id: "LGj0wZt3J58" }
   ];
 
   return (
@@ -30,26 +19,20 @@ const ProductDemo = () => {
 
         <div className="flex flex-wrap justify-center gap-6">
           {videos.map((video) => (
-            <a
+            <div
               key={video.id}
-              href={`https://www.tiktok.com/@${video.username}/video/${video.id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 bg-gradient-to-br from-pink-500 via-purple-500 to-cyan-500 p-[2px]"
+              className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 bg-gradient-to-br from-red-500 via-red-600 to-red-700 p-[2px]"
             >
-              <div className="w-[200px] h-[355px] bg-black rounded-2xl flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60" />
-                <div className="flex flex-col items-center gap-3 z-10">
-                  <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:bg-white/30 transition-colors">
-                    <Play className="w-8 h-8 text-white fill-white" />
-                  </div>
-                  <span className="text-white text-sm font-medium">Ver en TikTok</span>
-                </div>
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-white text-xs opacity-80">@{video.username}</p>
-                </div>
+              <div className="w-[200px] h-[355px] bg-black rounded-2xl overflow-hidden">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title="YouTube Short"
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
