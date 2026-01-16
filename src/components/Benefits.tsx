@@ -14,13 +14,8 @@ const Benefits = () => {
     },
     {
       icon: Infinity,
-      title: "Conversaciones ilimitadas",
-      description: "Practica todo lo que quieras, sin límites"
-    },
-    {
-      icon: Clock,
-      title: "IA disponible 24/7",
-      description: "Practica cuando quieras, a cualquier hora"
+      title: "Conversaciones ilimitadas 24/7",
+      description: "Practica todo lo que quieras y cuando quieras, sin límites"
     },
     {
       icon: ShieldOff,
