@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import alexaDevice from "@/assets/alexa.png";
+import hermessLogo from "@/assets/hermess-logo.png";
 
 const Hero = () => {
   const whatsappNumber = "1234567890"; // Reemplazar con número real
@@ -9,9 +10,7 @@ const Hero = () => {
       {/* Top Navigation Bar */}
       <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="text-xl font-semibold text-foreground">
-            Hermess
-          </div>
+          <img src={hermessLogo} alt="Hermess" className="h-10 w-auto" />
         </div>
       </div>
 
