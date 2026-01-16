@@ -1,4 +1,4 @@
-import { CheckCircle, Infinity, TrendingUp, Clock } from "lucide-react";
+import { CheckCircle, Infinity, TrendingUp, Clock, ShieldOff } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -21,6 +21,11 @@ const Benefits = () => {
       icon: Clock,
       title: "IA disponible 24/7",
       description: "Practica cuando quieras, a cualquier hora"
+    },
+    {
+      icon: ShieldOff,
+      title: "Sin juicios",
+      description: "Sentirse evaluado dificulta el aprendizaje. Aquí practicas sin presión"
     }
   ];
 
