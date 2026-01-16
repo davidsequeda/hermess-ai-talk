@@ -3,6 +3,11 @@ import { CheckCircle, Infinity, TrendingUp, Clock } from "lucide-react";
 const Benefits = () => {
   const benefits = [
     {
+      icon: TrendingUp,
+      title: "Mejora real con práctica diaria",
+      description: "Resultados visibles en semanas, no meses"
+    },    
+    {
       icon: CheckCircle,
       title: "Corrección inmediata",
       description: "La IA corrige pronunciación y gramática al instante"
@@ -11,11 +16,6 @@ const Benefits = () => {
       icon: Infinity,
       title: "Conversaciones ilimitadas",
       description: "Practica todo lo que quieras, sin límites"
-    },
-    {
-      icon: TrendingUp,
-      title: "Mejora real con práctica diaria",
-      description: "Resultados visibles en semanas, no meses"
     },
     {
       icon: Clock,
