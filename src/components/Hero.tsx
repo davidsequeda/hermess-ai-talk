@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                  Vas a aprender inglés como aprendiste español y desde casa
+                  Practica inglés sin miedo a equivocarte, sin que te juzguen y en casa
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
                   Rosa es un agente de IA que vive en Alexa. Conversa, corrige y motiva… sin pantallas, sin distracciones.
