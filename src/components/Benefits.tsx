@@ -25,7 +25,7 @@ const Benefits = () => {
     {
       icon: ShieldOff,
       title: "Sin juicios",
-      description: "Sentirse evaluado dificulta el aprendizaje. Aquí practicas sin presión"
+      description: "Sentirse evaluado dificulta el aprendizaje. Solo tienes que hablar"
     }
   ];
 
