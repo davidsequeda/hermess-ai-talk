@@ -5,7 +5,7 @@ const HowItWorks = () => {
     {
       icon: Download,
       title: "Instala la skill de Rosa en Alexa",
-      description: "Descarga la skill en menos de un minuto"
+      description: "Instala la aplicación de Amazon en tu cel y sincroniza tu Alexa"
     },
     {
       icon: Zap,
