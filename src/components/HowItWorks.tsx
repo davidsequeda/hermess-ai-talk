@@ -4,18 +4,18 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: Download,
-      title: "Instala la skill de Rosa en Alexa",
-      description: "Instala la aplicación de Amazon en tu cel y sincroniza tu Alexa"
+      title: "Instala la app de Alexa en tu Celular",
+      description: "Sincroniza tu Echo Dot con la APP "
     },
     {
       icon: Zap,
-      title: "Activa a Rosa",
-      description: "Configura y personaliza la experiencia con Rosa"
+      title: "Activar a Rosa",
+      description: "Configura la app con nuestras indicacione en 1 minuto"
     },
     {
       icon: MessageCircle,
       title: "Habla con Rosa",
-      description: "Conversaciones en inglés todos los días"
+      description: "Conversaciones en inglés todos los días con nuestra metodología de inmersión"
     }
   ];
 
