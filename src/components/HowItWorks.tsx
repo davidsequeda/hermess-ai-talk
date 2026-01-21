@@ -10,7 +10,7 @@ const HowItWorks = () => {
     {
       icon: Zap,
       title: "Activar a Rosa",
-      description: "Configura la app con nuestras indicacione en 1 minuto"
+      description: "Configura la app con nuestras indicaciones, en 1 minuto"
     },
     {
       icon: MessageCircle,
