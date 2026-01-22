@@ -37,7 +37,7 @@ const AIIntegration = () => {
 
               <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 inline-block max-w-md ml-8">
                 <p className="text-foreground text-sm font-medium">
-                  "¡Claro! Puedes decir: 'I'm chopping the vegetables' o 'The water is boiling'. ¿Qué ingredientes vas a utilizar? What ingredients are you going to use"
+                  "¡Claro! Puedes decir: 'I'm shopping the vegetables' o 'The water is boiling'. ¿Qué ingredientes vas a utilizar? What ingredients are you going to use"
                 </p>
               </div>
             </div>
