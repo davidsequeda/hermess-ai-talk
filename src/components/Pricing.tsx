@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Star } from "lucide-react";
 
 const Pricing = () => {
-  const whatsappNumber = "1234567890"; // Reemplazar con número real
+  const whatsappLink = "https://wa.link/6kj4ud";
 
   const basicFeatures = [
     "Conversaciones ilimitadas",
@@ -20,7 +20,7 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-background">
+    <section id="precios" className="py-20 px-6 bg-background">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -55,7 +55,7 @@ const Pricing = () => {
               variant="outline"
               className="w-full text-lg font-semibold py-6 h-auto rounded-xl transition-all duration-300 hover:scale-105"
             >
-              <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 Elegir Básico
               </a>
             </Button>
@@ -87,7 +87,7 @@ const Pricing = () => {
               asChild
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-semibold py-6 h-auto rounded-xl shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105"
             >
-              <a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noopener noreferrer">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 Elegir Premium
               </a>
             </Button>

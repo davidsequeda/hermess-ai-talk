@@ -5,12 +5,42 @@ import hermessLogo from "@/assets/hermess-logo.png";
 const Hero = () => {
   const whatsappLink = "https://wa.link/6kj4ud";
 
+  const navItems = [
+    { label: "Cómo funciona", href: "#como-funciona" },
+    { label: "Beneficios", href: "#beneficios" },
+    { label: "Precios", href: "#precios" },
+    { label: "Demo", href: "#demo" },
+  ];
+
   return (
     <section className="min-h-screen bg-background flex flex-col">
       {/* Top Navigation Bar */}
-      <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4">
+      <div className="w-full bg-background/80 backdrop-blur-sm border-b border-border/30 py-4 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <img src={hermessLogo} alt="Hermess" className="h-10 w-auto" />
+          
+          {/* Navigation Menu */}
+          <nav className="hidden md:flex items-center gap-8">
+            {navItems.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+
+          {/* CTA Button */}
+          <Button 
+            asChild
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-xl"
+          >
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+              Contactar
+            </a>
+          </Button>
         </div>
       </div>
 
