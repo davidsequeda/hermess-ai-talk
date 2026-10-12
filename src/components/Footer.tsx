@@ -1,3 +1,4 @@
+import { WHATSAPP_LINK, PRIVACY_LINK } from "@/lib/links";
 import hermessLogo from "@/assets/hermess-logo.png";
 
 const Footer = () => {
@@ -14,14 +15,13 @@ const Footer = () => {
 
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-6 text-sm text-footer-text/70">
-            <a href="#" className="hover:text-footer-text transition-colors">Privacidad</a>
-            <a href="#" className="hover:text-footer-text transition-colors">Términos</a>
-            <a href="#" className="hover:text-footer-text transition-colors">Contacto</a>
+            <a href={PRIVACY_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-footer-text transition-colors">Privacidad</a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-footer-text transition-colors">Contacto</a>
           </div>
 
           {/* Copyright */}
           <div className="text-sm text-footer-text/60 text-center md:text-right">
-            <p>&copy; 2024 Hermess</p>
+            <p>&copy; {new Date().getFullYear()} Hermess</p>
           </div>
         </div>
       </div>

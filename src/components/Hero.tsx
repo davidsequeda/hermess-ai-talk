@@ -1,9 +1,9 @@
+import { WHATSAPP_LINK } from "@/lib/links";
 import { Button } from "@/components/ui/button";
 import alexaDevice from "@/assets/alexa.png";
 import hermessLogo from "@/assets/hermess-logo.png";
 
 const Hero = () => {
-  const whatsappLink = "https://wa.link/6kj4ud";
 
   const navItems = [
     { label: "Cómo funciona", href: "#como-funciona" },
@@ -37,7 +37,7 @@ const Hero = () => {
             asChild
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-xl"
           >
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
               Contactar
             </a>
           </Button>
@@ -64,7 +64,7 @@ const Hero = () => {
                   asChild
                   className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-semibold px-8 py-6 h-auto rounded-xl shadow-[var(--shadow-soft)] transition-all duration-300 hover:scale-105"
                 >
-                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                     Hablar por WhatsApp
                   </a>
                 </Button>

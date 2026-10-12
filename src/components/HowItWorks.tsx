@@ -5,7 +5,7 @@ const HowItWorks = () => {
     {
       icon: Download,
       title: "Instala la app de Alexa en tu Celular",
-      description: "Sincroniza tu Echo Dot con la APP "
+      description: "Sincroniza tu Echo Dot con la APP"
     },
     {
       icon: Zap,

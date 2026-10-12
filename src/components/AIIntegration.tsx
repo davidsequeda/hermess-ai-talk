@@ -1,4 +1,4 @@
-import alexaDevice from "@/assets/alexa.png";
+import alexaDevice from "@/assets/alexa-echo-device.png";
 
 const AIIntegration = () => {
   return (
@@ -11,7 +11,7 @@ const AIIntegration = () => {
               <img 
                 src={alexaDevice} 
                 alt="Alexa con IA integrada" 
-                className="w-80 h-80 lg:w-[500px] lg:h-[500px] object-contain drop-shadow-[var(--shadow-device)]"
+                className="w-72 h-72 lg:w-[420px] lg:h-[420px] object-contain rounded-3xl drop-shadow-[var(--shadow-device)]"
               />
             </div>
           </div>
@@ -23,7 +23,7 @@ const AIIntegration = () => {
                 Rosa vive en tu Alexa
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Rosa es un agente de IA que conversa como un tutor real: responde, corrige pronunciación.
+                Rosa es un agente de IA que conversa como un tutor real: responde tus dudas, corrige tu pronunciación y te mantiene hablando en inglés.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ const AIIntegration = () => {
 
               <div className="bg-bubble-ai border border-border/30 rounded-2xl rounded-bl-md px-6 py-4 inline-block max-w-md ml-8">
                 <p className="text-foreground text-sm font-medium">
-                  "¡Claro! Puedes decir: 'I'm shopping the vegetables' o 'The water is boiling'. ¿Qué ingredientes vas a utilizar? What ingredients are you going to use"
+                  "¡Claro! Puedes decir: 'I'm chopping the vegetables' o 'The water is boiling'. ¿Qué ingredientes vas a utilizar? What ingredients are you going to use?"
                 </p>
               </div>
             </div>

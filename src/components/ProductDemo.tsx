@@ -1,8 +1,8 @@
 const ProductDemo = () => {
   const videos = [
-    { id: "TVNdJvrckUE" },
-    { id: "wr3ceeXf0hM" },
-    { id: "LGj0wZt3J58" }
+    { id: "TVNdJvrckUE", title: "Demo de Rosa 1" },
+    { id: "wr3ceeXf0hM", title: "Demo de Rosa 2" },
+    { id: "LGj0wZt3J58", title: "Demo de Rosa 3" }
   ];
 
   return (
@@ -26,7 +26,8 @@ const ProductDemo = () => {
               <div className="w-[200px] h-[355px] bg-black rounded-2xl overflow-hidden">
                 <iframe
                   src={`https://www.youtube.com/embed/${video.id}`}
-                  title="YouTube Short"
+                  title={video.title}
+                  loading="lazy"
                   className="w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

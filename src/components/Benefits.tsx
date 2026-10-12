@@ -1,4 +1,4 @@
-import { CheckCircle, Infinity, TrendingUp, Clock, ShieldOff } from "lucide-react";
+import { CheckCircle, Infinity as InfinityIcon, TrendingUp, Clock, ShieldOff } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -13,7 +13,7 @@ const Benefits = () => {
       description: "La IA corrige pronunciación y gramática al instante"
     },
     {
-      icon: Infinity,
+      icon: InfinityIcon,
       title: "Conversaciones ilimitadas 24/7",
       description: "Practica todo lo que quieras y cuando quieras, sin límites"
     },
