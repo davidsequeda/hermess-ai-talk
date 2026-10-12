@@ -7,6 +7,7 @@ const Hero = () => {
 
   const navItems = [
     { label: "Cómo funciona", href: "#como-funciona" },
+    { label: "Método", href: "#metodo" },
     { label: "Beneficios", href: "#beneficios" },
     { label: "Precios", href: "#precios" },
     { label: "Demo", href: "#demo" },
@@ -55,7 +56,7 @@ const Hero = () => {
                   Practica inglés sin miedo a equivocarte
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                  Rosa es un agente de IA que vive en Alexa. Conversa, corrige y motiva… sin pantallas, sin distracciones.
+                  Rose es un agente de IA que vive en Alexa. Conversa, corrige y motiva… sin pantallas, sin distracciones.
                 </p>
               </div>
               
